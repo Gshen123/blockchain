@@ -1,7 +1,7 @@
 #! /bin/sh
 
 version=1.0
-chmod +x startdemo.sh
+// chmod +x startdemo.sh
 
 echo "########################docker fast start#########################"
 docker container restart police-ca
@@ -18,5 +18,5 @@ docker container restart web
 echo "########################docker loading end########################"
 docker ps
 
-echo "ERR?? <docker stop $(docker ps -a -q)> please "
-echo "ERR?? <chomd +x startdemo.sh> please "
+// "ERR?? <docker stop $(docker ps -a -q)> please "
+// "ERR?? <chomd +x startdemo.sh> please "
